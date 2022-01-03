@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fafafa;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* CABECALHO */
+.content-header {
+    background: linear-gradient(42deg,#6940c0 10%,#c22798 40%, #e22f6d 50%, #fdb852 100%);
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.content-header i {
+    font-size: 40px;
+    margin: 0 15px;
+    color: #FFF;
+}
+
+.content-header h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #FFF;
+}
+
+/* CONTEÚDO PRINCIPAL */
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+/* LADO ESQUERDO */
+.content .left-side {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 30px 0 0;
+}
+
+.left-side .phone img {
+    height: 110%;
+}
+
+/* LADO DIREITO */
+.content .right-side {
+    height: 100%;
+    width: 50%;
+    margin: 30px 0 0 20px;
+}
+
+.right-side .login {
+    width: 350px;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dbdbdb;
+    background-color: #ffffff;
+}
+
+.login h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login input {
+    padding: 10px;
+    margin-bottom: 5px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    background-color: #fafafa;
+}
+
+.login .submit {
+    background-color: #0099ff;
+    color: #FFF;
+    margin-top: 10px;
+    border: none;
+    font-weight: bold;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.others {
+    display: flex;
+    flex-direction: column;
+}
+
+.others .another{
+    text-align: center;
+    color: #8e8e9c;
+    margin: 10px 0 20px;
+    font-size: 17px;
+}
+
+.others i {
+    color: #385185;
+    margin: auto;
+}
+
+.others i a {
+    color: #385185;
+}
+
+.others .forgot {
+    margin: auto;
+    font-size: 12px;
+    color: #385185;
+    margin-top: 20px;
+}
+
+/* NÃO TEM CONTA */
+.not-account {
+    border: 1px solid #dbdbdb;
+    background-color: #ffffff;
+    width: 350px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.not-account p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.not-account p a {
+    color: #0095f6;
+    font-weight: 600;
+}
+
+/* OBTER APP */
+.have-app {
+    text-align: center;
+    width: 350px;
+    margin-top: 20px;
+}
+
+.have-app .aplications {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.have-app .aplications img {
+    width: 150px;
+    padding: 5px;
+}
